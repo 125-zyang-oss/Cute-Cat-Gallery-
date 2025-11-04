@@ -1,0 +1,56 @@
+body {
+  background-color: #f6f6f6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+/* nav bar */
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: #333;
+  margin: 0;
+  overflow: hidden;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: #555;
+}
+
+/* pictures container (instead of .container) */
+.pictures {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+/* image */
+.pictures img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* buttons */
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}

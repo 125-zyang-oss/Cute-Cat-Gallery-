@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0e0ee;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: none;
+}
+
+body {
+  padding-top: 60px;
+  text-align: center; 
+}
+
+.vid {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 800px;
+}

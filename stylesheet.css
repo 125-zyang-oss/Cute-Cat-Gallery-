@@ -1,0 +1,61 @@
+/* myStyle.css */
+body {
+ background-color: #f0e0ee;
+ color: #FFFFFF;
+ 
+}
+h1 {
+ color: rgb(0, 0, 0);
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ background-color: rgb(251, 201, 209);
+ color: #333300;
+ text-align: right;
+ border: 3px groove pink;
+}
+
+body{
+  background-image: url(Aurora.jpg);
+  background-size: 100vh auto; 
+  line-height: 1.2;
+  min-height: 100vh;
+  min-width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictures{
+    text-align: center;
+}
+
+/*Navigation bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0e0ee;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: none;
+}
